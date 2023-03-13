@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151515;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px #000;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #000;
+    color: #fff;
+}
+
+button {
+    display: block;
+    float: right;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tag {
+    display: inline-flex; /* Flexbox を使用して、縦方向に中央揃えする */
+    align-items: center; /* 縦方向に中央揃えする */
+    padding: 5px;
+    margin: 5px;
+    background-color: #666;
+    border-radius: 5px;
+}
+
+.tag-label {
+    font-size: 18px;
+}
+
+.tag-delete {
+    margin-left: 5px;
+    padding: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 0px;
+}
+
+input[type="text"] {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: calc(
+        100% - 90px
+    ); /* ADDボタンの幅（80px）とマージン（10px）を引く */
+    vertical-align: middle;
+}
+
+#add-tag {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+}
